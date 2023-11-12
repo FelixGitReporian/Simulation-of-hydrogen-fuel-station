@@ -1,5 +1,66 @@
-# Simulation-of-hydrogen-fuel-station
 
-Die Bachelorarbeit von Felix Hecht befasst sich mit der Bereitstellung von Wasserstoff im ländlichen Individualverkehr und dessen Integration in bestehende Infrastrukturen. Wasserstoff, ein umweltfreundlicher Energieträger, wird in Fahrzeugen eingesetzt, wobei Wasser als Nebenprodukt entsteht, was zu einer Reduktion von Treibhausgasemissionen im Verkehrssektor beiträgt. Ein wesentlicher Fokus der Arbeit liegt auf dem optimierten Betrieb von Wasserstofftankstellen in verschiedenen Regionen. Es wird untersucht, wie sich der Wasserstoffverbrauch in Fahrzeugen je nach Region unterscheidet, wobei festgestellt wurde, dass Fahrzeuge in zentralen und Kleinstädten einen höheren Wasserstoffverbrauch pro 100 km aufweisen als in Mittelstädten.
+# Toyota Mirai I Simulation
 
-Die Arbeit analysiert auch, wie Tankstellen auf einen saisonal schwankenden Bedarf reagieren können, insbesondere durch Variationen in ihrer Dimensionierung. Es wird gezeigt, dass mit einer steigenden Anzahl an Zapfsäulen die Betriebskonfigurationen zunehmen, jedoch bei höheren Temperaturen abnehmen. Für unterschiedliche Regionen ergeben sich diverse Dimensionierungen der Nachfrage nach Wasserstoff. So kann beispielsweise eine Tankstelle in einer zentralen Stadt mit einer Zapfsäule einen täglichen Bedarf von etwa 86 kg (mit einer Schwankung von ± 54 kg) decken, während die gleiche Konfiguration in einer Kleinstadt nur einen Bedarf von etwa 51 kg (mit einer Schwankung von ± 29 kg) erfüllt. Zudem wurde festgestellt, dass die Betankungszeit mit steigender Umgebungstemperatur zunimmt, wobei eine Temperaturdifferenz von 48 °C die Betankungszeit um bis zu 173 Sekunden verlängern kann​.
+
+## Kontext
+
+In dieser Simulation wird der Toyota Mirai I mit seinen Komponenten abgebildet und sein Fahrverhalten simuliert. 
+
+## Aufbau
+
+
+Die einzelnen Klassen der Komponenten, befinden sich im Ordner "componentents/", ihre Daten werden aus dem Ordner "data/" geladen.
+"Main.py" ist die Hauptsimulation, welche auf die Parent-Klassen "simulatable" und "serializable" zurückgreift, die in "simulation.py"
+ausgeführt werden. Die Routenprofile werden im Ordner "Routenauslegung/data" ausgelesen und die Tagesverteilung für die aufbauende Simulation erzeugt.
+Die aus der Simulation entstandenen Daten, werden im Ordner "results/" gespeichert.
+
+## Rechte
+Die Simulation beruht auf dem Modell "Refuse Collection Vehicle Simulation" (siehe unten und "license.txt").
+
+
+
+
+
+
+
+
+
+
+
+
+# Refuse Collection Vehicle Simulation
+
+### About
+
+This tool includes an object oriented programmed energy demand simulation of a waste collection vehicle. The backwards simulation has a resolution of one second. All related power flows of the vehicle are modeled and can be analyzed.  
+
+### Features
+
+1. Models for electric driven vehicle drivetrains, the vehicle body, the vehicle route and in case of an electric vehicle a battery, battery management and charger model included, and in case of a fuel cell vehicle a fuel cell stack, a pump, an air compressor, a boost converter and an energy controller included. 
+
+   *All component models stored in the folder components.*
+
+2. Models are fully serializable, component parameter are stored in json files.
+
+   *All model parameters stored in the folder data/components*
+
+3. Vehicle route is synthesized on route parameter and normalized driven cycles.
+
+   *Route parameters are stored in the folder data/load*
+
+   
+
+### Getting started
+
+Sample component and route data is provided. Test simulation can be started with file *MAIN.py*, results will be stored in folder *results* and include general evaluation parameters as energy consumption and detailed timeseries powerflows of all relevant components.
+
+
+
+###  Remark
+
+The simulation tool was developed during a research project. Research results obtained on the basis of the model will be published in the upcoming months and will be referenced here.
+
+
+
+
+
