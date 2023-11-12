@@ -29,6 +29,7 @@ Diese Tabelle präsentiert die Betankungsparameter für Wasserstofftankstellen, 
 ## Resulatet Fahrzeug
 Das Bild zeigt den Bedarf an Wasserstoff für eine Fahrt in einer Region aufgrund des entsprechenden Fahrverhaltens.
 ![Abbildung 1](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/Resulte%20Fahrzeuge%203.png)
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/Auschnitt%20Fahrzeuge%201.png)
 
 ## Resultate Betankung:
 Die drei zwei Bilder zeigen die Temperatur- und Massenverteilung, sowie den nach den Betankungsparametern berechneten Strom eines Fahrzeugtanks während eines Betankungsprozesses.
@@ -36,7 +37,16 @@ Die drei zwei Bilder zeigen die Temperatur- und Massenverteilung, sowie den nach
 ![Abbildung 2](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/Betankung%20vergleich_%20Masse_%20Tank.png)
 ![Abbildung 1](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/Betankung%20vergleich.png)
 
-## Resultate 
+## Resulatet Tankstelle:
+Die folgenden Bilder sind die Visualisierung eines Tages einer Wasserstofftankstelle in einer Region bei einer bestimmten Außentemperatur.
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/tagesverlauf_%20druck.png)
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/tagesverlauf_%20masse.png)
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/tagesverlauf_%20temp.png)
 
+## Resultate
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/beispiel_%20datentabelle.png)
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/zapfs%C3%A4ulen_%20masse.png)
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/Daten_%20Auswertung_%201.png)
+![](https://github.com/FelixGitReporian/Simulation-of-hydrogen-fuel-station/blob/main/Ergebnisse/Bilder/Daten_%20Auswertung.png)
 
 
