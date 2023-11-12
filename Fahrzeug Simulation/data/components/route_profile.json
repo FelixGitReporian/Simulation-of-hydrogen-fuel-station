@@ -1,0 +1,6 @@
+{
+    "specification": "profile_1",
+    "drivecycle_file": "Routenauslegung/data/Cycle_Stadt1.csv",
+    "acceleration_const": 0.6,
+    "speed_max": 15.7
+}

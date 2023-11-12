@@ -1,0 +1,19 @@
+{
+    "specification": "vehicle_electric",
+    "mass_empty": 17250.0,
+    "power_motor_max": 370000.0,
+    "efficiency_transmission": 0.99,
+    "efficiency_converter": 0.95,
+    "efficiency_loader": 0.7885,
+    "power_hydraulic_mean": 10000.0,
+    "mass_max": 26000.0,
+    "power_aux": 2000.0,
+    "alpha": 0.0,
+    "front_area": 6.8064,
+    "cw": 0.63,
+    "cr": 0.007,
+    "m_add": 1.1,
+    "rho_air": 1.2,
+    "k_r": 4.875,
+    "R_wh": 0.52175
+}

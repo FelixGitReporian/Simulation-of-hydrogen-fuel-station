@@ -1,0 +1,15 @@
+in der alten Simulation: Berechnung des Wasserstoffverbrauchs in Main (hier war noch ein Faktor (0.73 oder so) enthalten,
+der wahrscheinlich Wirkungsgrad der Erzeugung und Speicherung beinhaltete (verfälscht aber die Ergebnisse und
+ist sonst auch nicht dokumentiert)
+
+wie in den Resultaten gezeigt weichen die Berechnung in Main und die Summe aus H2-Bedarf in components/FuelCell.calculate
+vonander ab (um bis zu 40%)
+
+in battery.battery_power wird eine Effizienz der Rekuperation angegeben, diese aber nicht weiter verwendet
+
+in der Theorie wird angegeben, dass die Batterie auch von der FC geladen wird bei gleichmäßiger Geschwindigkeit, dass lässt sich im Code jedoch nicht wiederfinden
+
+
+
+Wie werden Daten der Efficeincy map eingeladen
+Elektro Fahrzeug verienfachen: BMS+Batterie vereinfachen (Fabi ansprechen)

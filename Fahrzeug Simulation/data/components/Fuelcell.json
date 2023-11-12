@@ -1,0 +1,11 @@
+{
+    "specification": "fuelcell_PEMFC",
+    "power_stack_max": 114000,
+    "efficiency_stack_y0": 22.55007,
+    "efficiency_stack_A": 63.86124,
+    "efficiency_stack_xc": 64.67945,
+    "efficiency_stack_w1": 126.60496,
+    "efficiency_stack_w2": 1.46478,
+    "efficiency_stack_w3": 179.61904,
+    "HHV": 1.4188e8
+}

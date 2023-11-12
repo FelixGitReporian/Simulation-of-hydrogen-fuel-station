@@ -1,0 +1,16 @@
+{
+    "specification": "vehicle_fuelcell",
+    "mass_empty": 1850.0,
+    "power_motor_max": 113000.0,
+    "efficiency_transmission": 0.99,
+    "efficiency_converter": 0.95,
+    "power_aux": 2000.0,
+    "alpha": 0.0,
+    "front_area": 2.786,
+    "cw": 0.29,
+    "cr": 0.012,
+    "m_add": 1.1,
+    "rho_air": 1.2,
+    "k_r": 3.478,
+    "R_wh": 0.4318
+}
